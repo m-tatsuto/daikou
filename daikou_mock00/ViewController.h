@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    CLLocationManager *manager;
+}
+- (IBAction)daikou_bt:(id)sender;
+- (IBAction)historyBt:(id)sender;
 
 @end
